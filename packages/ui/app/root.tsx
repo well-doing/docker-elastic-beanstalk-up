@@ -37,7 +37,7 @@ export default function App() {
       <body>
         <div
           style={{ textAlign: "center" }}
-        >{`Ping (from version ${config.packageVersion}) > :D ${data.pong}`}</div>
+        >{`Ping (from version ${config.packageVersion}) > ${data.pong}`}</div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
